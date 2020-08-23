@@ -8,9 +8,15 @@ Initialement nommé Monster Truck Challenge, CMT est un jeu imaginé par mon fil
 
 -> Un atelier pour créer son propre véhicule.
 
+![alt text]()
+
 -> Un menu pour récapituler toutes les infos du joueur : points collectés, argent, trophées... 
 
+![alt text]()
+
 -> Une partie de jeu durant laquelle on doit écraser les voitures précédents le joueur.
+
+![alt text]()
 
 -> Le véhicule devra obligatoirement refaire le plein en carburant en récupérant des jerrycans d'essence.
 
@@ -24,4 +30,6 @@ Après quatre mois de développement et un mois de travail graphique, le jeu est
 
 Le résultat est certes loin de la qualité d'un triple A mais il m'a permis d'apprendre énormément. J'ai, en effet développé durant ce projet , un programme constitué de toutes les fonctionnalités de base de tout jeu : choix des personnages, modification de ce personnage, système d'achat, instanciation aléatoire d'ennemi, gestion des collisions, cycle de vie de jeu ( du menu au "game over" ), système commercial...etc...
 
-N'hésitez pas à le tester en l' installant depuis le Playstore et retrouvez le code source sur GitHub.
+N'hésitez pas à le tester en l' installant depuis le Playstore :
+
+https://play.google.com/store/apps/details?id=com.dumbocracy.crazymonstertruck&hl=en_US
