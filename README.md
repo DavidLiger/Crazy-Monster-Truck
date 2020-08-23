@@ -55,6 +55,8 @@ Principe : Le but du jeu Crazy Monster Truck étant d’écraser les véhicules 
 
 I-Le Déclencheur :
 
+![alt text](https://github.com/DavidLiger/Crazy-Monster-Truck/blob/master/img/article-10-img-1.png)
+
 Le véhicule du joueur sera le déclencheur de l’apparition des véhicules. J’ai utiliser TILED pour modéliser une map 2D (une suite de colline) qui constitue le terrain sur lequel roule les véhicules.
 
 TILED permet de créer différents calques, j’ai utilisé un calque pour simplement enregistré des positions equidistantes. Lorsque le véhicule du joueur approche à une certaine distance de chacune de ces positions (juste avant que cette position entre dans le «champ de la caméra »), un véhicule est ajouté à la partie.
@@ -63,9 +65,14 @@ Ainsi ce système donne l’illusion que l’on rattrape toujours de nouveaux v�
 
 II-Le modèle : un véhicule-type
 
+
+![alt text](https://github.com/DavidLiger/Crazy-Monster-Truck/blob/master/img/article-10-img-2.png)
+
 Comme on peut le voir sur le schéma précédent, un véhicule est constituer de différents éléments de l’API Box2D, des bodies et des joints. En appliquant une certaine rotation à une roue, l’ensemble des bodies et joints reliés entre eux avancent. La tête est reliée à un RevoluteJoint, un type de jointure qui laisse libre le body auquel il est rattaché, autorisant un mouvement de hochet propre à certains jouets ou gadgets.
 
 III-Le code :
+
+![alt text](https://github.com/DavidLiger/Crazy-Monster-Truck/blob/master/img/article-10-img-3.png)
 
 Le diagramme de classe représente l’ensemble du projet. J’évoquerai uniquement les classes surlignées dans l’explication de cette fonctionnalité.
 
@@ -74,7 +81,11 @@ Au démarrage du jeu, dans la classe MTCGame, la méthode create() qui surcharge
 
 SetScreen() est la méthode qui lance un nouvel écran à chaque appel. Ainsi le LifeCycle du jeu est géréÒ par cette méthode qui appelle chaque « Screen » au moment de passer à la phase suivante du jeu (MenuScreen, GameScreen, GameOverScreen…)
 
+![alt text](https://github.com/DavidLiger/Crazy-Monster-Truck/blob/master/img/article-10-img-4.png)
+
 ex : Lorsque les éléments de MenuScreen sont chargés, le SplashPreLoadingScreen nous y envoie.
+
+![alt text](https://github.com/DavidLiger/Crazy-Monster-Truck/blob/master/img/article-10-img-5.png)
 
 ex : Lorsque nos choix de personnages, circuit et véhicules sont fait le bouton play nous envoie vers le GameScreen.
 
@@ -165,6 +176,8 @@ GroundGenerator.java
 Le GroundGenerator utilise, pour remplir sa liste de positions, EnemiesPositions, une classe native de LibGDX, le MapObjects qui autorise l’enregistrement de différentes données d’un « objet » graphique. Ici, les mapObjects sont converti en RectangleMapObject et on en extraie les positions stockées dans dans Vector2 (coordonnées en X et en Y) stockés dans la liste EnemiesPositions renvoyés vers le GameScreen.
 
 5-Apparition à bonne distance :
+
+![alt text](https://github.com/DavidLiger/Crazy-Monster-Truck/blob/master/img/article-10-img-6.png)
 Gamescreen.java
 
 
