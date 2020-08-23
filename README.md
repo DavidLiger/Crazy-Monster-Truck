@@ -4,6 +4,8 @@ Initialement nommé Monster Truck Challenge, CMT est un jeu imaginé par mon fil
 
 -> Une boutique proposant différents choix de pilote, circuit et véhicule.
 
+![alt text](https://github.com/DavidLiger/Crazy-Monster-Truck/blob/master/img/article-1-img-1.png)
+
 -> Un atelier pour créer son propre véhicule.
 
 -> Un menu pour récapituler toutes les infos du joueur : points collectés, argent, trophées... 
