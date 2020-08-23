@@ -8,15 +8,15 @@ Initialement nommé Monster Truck Challenge, CMT est un jeu imaginé par mon fil
 
 -> Un atelier pour créer son propre véhicule.
 
-![alt text]()
+![alt text](https://github.com/DavidLiger/Crazy-Monster-Truck/blob/master/img/article-1-img-2.png)
 
 -> Un menu pour récapituler toutes les infos du joueur : points collectés, argent, trophées... 
 
-![alt text]()
+![alt text](https://github.com/DavidLiger/Crazy-Monster-Truck/blob/master/img/article-1-img-3.png)
 
 -> Une partie de jeu durant laquelle on doit écraser les voitures précédents le joueur.
 
-![alt text]()
+![alt text](https://github.com/DavidLiger/Crazy-Monster-Truck/blob/master/img/article-1-img-4.png)
 
 -> Le véhicule devra obligatoirement refaire le plein en carburant en récupérant des jerrycans d'essence.
 
