@@ -1,5 +1,7 @@
 # Crazy-Monster-Truck
 
+Vidéo de démonstration : https://www.youtube.com/watch?v=YV_hfIY4Qn0
+
 Initialement nommé Monster Truck Challenge, CMT est un jeu imaginé par mon fils. Inspiré par Hill Climb Racing, ce jeu avait pour cahier des charges plusieurs caractéristiques :
 
 -> Une boutique proposant différents choix de pilote, circuit et véhicule.
